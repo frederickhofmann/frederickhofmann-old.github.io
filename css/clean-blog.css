@@ -55,7 +55,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+ /* color: #0085a1; */
+    color: #005DA5;
 }
 a img:hover,
 a img:focus {
@@ -117,7 +118,8 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+   /* color: rgba(255, 255, 255, 0.8); */
+    color: #005DA5;
   }
   .navbar-custom .nav li a {
     color: white;
@@ -125,7 +127,8 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+  /*  color: rgba(255, 255, 255, 0.8); */
+    color: #005DA5;
   }
   
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -284,7 +287,8 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+ /* color: #0085a1; */
+  color:#005DA5;
 }
 .post-preview > a > .post-title {
   font-size: 30px;

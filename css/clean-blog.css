@@ -415,8 +415,10 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  /* background-color: #0085a1; 
+  border: 1px solid #0085a1; */
+  background-color: #005DA5;
+  border: 1px solid #005DA5;
   color: white;
 }
 .pager {
@@ -474,5 +476,6 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+/* webkit-tap-highlight-color: #0085a1; */
+  webkit-tap-highlight-color: #005DA5;
 }

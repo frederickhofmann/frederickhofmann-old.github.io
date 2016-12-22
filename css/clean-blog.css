@@ -26,7 +26,7 @@
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.svg'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.ttf'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff'), 
-	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff2'), 
+	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff2'); 
 body {
   font-family: 'HaufeMerriwether';
   font-size: 20px;

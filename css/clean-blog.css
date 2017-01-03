@@ -479,7 +479,17 @@ body {
   margin: auto;
   width: 40%;
 }
-
 #navbarImg {
-  width: 20%;
+   position: absolute;
+    width: 15%;
+    /* margin-top: 5px; */
+    margin-bottom: -75px;
+}
+.navbar .nav > li > a.brand-image {
+      padding: 4px 0px 0px 0px;
+}
+.navbar .nav > li > a > img.brand-image {
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
 }

@@ -476,14 +476,7 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
-#footerDiv {
-  position:relative;
-  left:auto;
-  top:auto;
-}
-
 #footerImg {
-  position:absolute;
-  top:100%;
-  left:50%;
+  margin: auto;
+  width: 40%;
 }

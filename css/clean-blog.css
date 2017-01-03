@@ -476,8 +476,14 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 
-img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#footerDiv {
+  position:relative;
+  left:auto;
+  top:auto;
+}
+
+#footerImg {
+  position:absolute;
+  left:50%;
+  top:50%;
 }

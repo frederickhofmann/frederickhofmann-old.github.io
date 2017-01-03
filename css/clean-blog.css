@@ -55,7 +55,6 @@ a {
 }
 a:hover,
 a:focus {
- /* color: #0085a1; */
     color: #005DA5;
 }
 a img:hover,
@@ -443,8 +442,8 @@ form .row:first-child .floating-label-form-group {
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #005DA5;
+  border: 1px solid #005DA5;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,

@@ -7,23 +7,20 @@
 @font-face {
     font-family: 'HaufeMerriwether';
     src: url('../fonts/haufemerriweather-webfonts/haufemerriweather.eot'), 
-	 url('../fonts/haufemerriweather-webfonts/haufemerriweather.svg'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweather.ttf'),
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweather.woff'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweather.woff2'); 
 }
 @font-face {
     font-family: 'HaufeMerriwetherBold';
-    src: url('../fonts/haufemerriweather-webfonts/haufemerriweather-bold.eot'), 
-	 url('../fonts/haufemerriweather-webfonts/haufemerriweather-bold.svg'), 
+    src: url('../fonts/haufemerriweather-webfonts/haufemerriweather-bold.eot'),  
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweather-bold.ttf'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweather-bold.woff'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweather-bold.woff2'); 
 }
 @font-face {
     font-family: 'HaufeMerriwetherSans';
-    src: url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.eot'), 
-	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.svg'), 
+    src: url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.eot'),  
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.ttf'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff2'); 

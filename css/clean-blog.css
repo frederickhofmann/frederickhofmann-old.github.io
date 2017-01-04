@@ -479,11 +479,6 @@ body {
 #footerImg {
   margin: auto;
 }
-#navbarImg {
-  position: absolute;
-  /* margin-top: 5px; */
-  margin-bottom: -75px;
-}
 .navbar-custom .nav > li > a.brand-image {
   padding: 4px 0px 0px 0px;
 }

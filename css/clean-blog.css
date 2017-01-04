@@ -491,3 +491,6 @@ body {
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
+.table-hover > tbody > tr:hover {
+  background-color: #DADAD6;
+}

@@ -48,7 +48,8 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #404040;
+  /* color: #404040; */
+  color: #33332E;
 }
 a:hover,
 a:focus {

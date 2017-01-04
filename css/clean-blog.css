@@ -478,11 +478,9 @@ body {
 
 #footerImg {
   margin: auto;
-  width: 40%;
 }
 #navbarImg {
   position: absolute;
-  width: 15%;
   /* margin-top: 5px; */
   margin-bottom: -75px;
 }

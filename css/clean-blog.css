@@ -492,5 +492,12 @@ body {
   border-radius: 0px;
 }
 .table-hover > tbody > tr:hover {
-  background-color: #E9E9E5;
+  background-color: #F7F7F4;
+}
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #E9E9E5;
+    border-radius: 4px;
 }

@@ -166,7 +166,8 @@ hr.small {
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+  /* color: #0085a1; */
+   color: #005DA5;	  
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */

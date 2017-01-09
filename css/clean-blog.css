@@ -33,12 +33,13 @@
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff2'); 
 }
 body {
-  font-family: 'HaufeMerriwether', sans;
-  font-size: 20px;
+  font-family: "HaufeMerriweather",Georgia,"Times New Roman",Times,serif;
+  font-size: 18px;
+  line-height: 1.65;
   color: #404040;
 }
 p {
-  line-height: 1.5;
+  line-height: 1.65;
   margin: 30px 0;
 }
 p, li {

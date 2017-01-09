@@ -12,6 +12,13 @@
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweather.woff2'); 
 }
 @font-face {
+    font-family: 'HaufeMerriwetherLight';
+    src: url('../fonts/haufemerriweather-webfonts/haufemerriweatherlight.eot'),  
+	 url('../fonts/haufemerriweather-webfonts/haufemerriweatherlight.ttf'), 
+	 url('../fonts/haufemerriweather-webfonts/haufemerriweatherlight.woff'), 
+	 url('../fonts/haufemerriweather-webfonts/haufemerriweatherlight.woff2'); 
+}
+@font-face {
     font-family: 'HaufeMerriwetherBold';
     src: url('../fonts/haufemerriweather-webfonts/haufemerriweather-bold.eot'),  
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweather-bold.ttf'), 

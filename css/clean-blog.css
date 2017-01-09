@@ -150,6 +150,9 @@ hr.small {
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+    background-repeat: no-repeat;
+    background-position: 15px 0px !important;
   }
   .navbar-custom.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
@@ -183,6 +186,9 @@ hr.small {
     -ms-transform: translate3d(0, 100%, 0);
     -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
+    background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
+    background-repeat: no-repeat;
+    background-position: 15px 0px !important;
   }
 }
 .intro-header {

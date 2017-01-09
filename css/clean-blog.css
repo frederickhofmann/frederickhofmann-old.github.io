@@ -497,3 +497,6 @@ code {
     background-color: #E9E9E5;
     border-radius: 4px;
 }
+#imgFocus {
+  cursor: pointer;
+}

@@ -490,7 +490,7 @@ body {
 #footerImg {
   margin: auto;
 }
-@media only screen and (min-width: 768px) 
+@media only screen and (max-width: 768px) 
 {
   .navbar-custom .nav > li > a.brand-image {
     padding: 4px 0px 0px 0px;

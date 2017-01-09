@@ -504,7 +504,7 @@ body {
 @media only screen and (min-width: 768px) 
 {
   .navbar-custom .nav > li > a.brand-image {
-    padding: 4px 0px 0px 0px;
+    display: hidden;
   }
   .navbar-custom .nav > li > a > img.brand-image {
     display: hidden;

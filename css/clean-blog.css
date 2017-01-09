@@ -501,6 +501,15 @@ body {
     border-radius: 0px;
   }
 }
+@media only screen and (min-width: 768px) 
+{
+  .navbar-custom .nav > li > a.brand-image {
+    padding: 4px 0px 0px 0px;
+  }
+  .navbar-custom .nav > li > a > img.brand-image {
+    display: hidden;
+  }
+}
 .table-hover > tbody > tr:hover {
   background-color: #F7F7F4;
 }

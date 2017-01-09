@@ -45,7 +45,6 @@ p {
 p, li {
   font-weight: 300;
 }
-
 p a,
 li a {
   text-decoration: underline;
@@ -101,21 +100,17 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
-
 .navbar-default .navbar-toggle {
   border: none;
 }
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
     height: 3px;
 }
-
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   background: #fff;
   border: none;
 }
-
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -137,8 +132,7 @@ hr.small {
   .navbar-custom .nav li a:focus {
    /* color: rgba(255, 255, 255, 0.8); */
    color: #DADAD6;
-  }
-  
+  }  
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background: transparent;
   }
@@ -487,7 +481,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-
 #footerImg {
   margin: auto;
 }

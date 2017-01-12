@@ -31,7 +31,7 @@
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.ttf'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff2');
-	
+}	
 @font-face {
     font-family: 'HaufeMerriwetherSansLt';
     src: url('../fonts/haufemerriweather-webfonts/haufemerriweathersanslt.eot'),  

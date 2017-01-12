@@ -30,7 +30,14 @@
     src: url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.eot'),  
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.ttf'), 
 	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff'), 
-	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff2'); 
+	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersans.woff2');
+	
+@font-face {
+    font-family: 'HaufeMerriwetherSansLt';
+    src: url('../fonts/haufemerriweather-webfonts/haufemerriweathersanslt.eot'),  
+	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersanslt.ttf'), 
+	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersanslt.woff'), 
+	 url('../fonts/haufemerriweather-webfonts/haufemerriweathersanslt.woff2'); 
 }
 body {
   font-family: "HaufeMerriweatherLight",Georgia,"Times New Roman",Times,serif;
@@ -237,7 +244,7 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'HaufeMerriwetherSans';
+  font-family: 'HaufeMerriwetherSansLt';
   font-weight: 300;
   margin: 10px 0 0;
 }

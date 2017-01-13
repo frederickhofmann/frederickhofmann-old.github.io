@@ -1,16 +1,16 @@
 ---
 layout: page
-description: "Dev & Design Blog by Haufe Group"
+description: "Dev Blog by Haufe Group"
 ---
 
 <div class="button-group filter-button-group">
-    {% for category in site.categories %}
-        <a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
-    {% endfor %}
-        <a class="button active" data-filter="*">All</a>
+	{% for category in site.categories %}
+		<a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
+	{% endfor %}
+		<a class="button active" data-filter="*">All</a>
 </div>
 
- <div class="grid">
+<div class="grid">
 	{% for post in site.posts %}
      <div class="element-item {{ post.category }}">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -24,8 +24,9 @@ description: "Dev & Design Blog by Haufe Group"
         </p>
      </div>
     {% endfor %}
-</div> 
+</div>
 
+{% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
@@ -48,10 +49,9 @@ description: "Dev & Design Blog by Haufe Group"
     {% endif %}
     <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
-
 <hr>
-
 {% endfor %}
+
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
 <ul class="pager">

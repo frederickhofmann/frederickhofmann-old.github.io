@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "Dev Blog by Haufe Group"
+description: "Dev & Design Blog by Haufe Group"
 ---
 
 <div class="button-group filter-button-group">
@@ -8,22 +8,6 @@ description: "Dev Blog by Haufe Group"
         <a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
     {% endfor %}
         <a class="button active" data-filter="*">All</a>
-</div>
-
-<div class="grid">
-	{% for post in site.posts %}
-     <div class="element-item {{ post.category }}">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-        <p>
-          {{ post.excerpt }}
-        </p>
-     </div>
-    {% endfor %}
 </div>
 
 {% for post in paginator.posts %}

@@ -3,29 +3,6 @@ layout: page
 description: "Dev Blog by Haufe Group"
 ---
 
-<div class="button-group filter-button-group">
-	{% for category in site.categories %}
-		<a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
-	{% endfor %}
-		<a class="button active" data-filter="*">All</a>
-</div>
-
-<div class="grid">
-	{% for post in site.posts %}
-     <div class="element-item {{ post.category }}">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-        <p>
-          {{ post.excerpt }}
-        </p>
-     </div>
-    {% endfor %}
-</div>
-
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">

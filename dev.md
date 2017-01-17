@@ -1,6 +1,7 @@
 ---
 layout: page
 description: "Dev Blog by Haufe Group"
+navigation_weight: 2
 permalink: /dev/
 ---
 

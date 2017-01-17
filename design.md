@@ -1,6 +1,7 @@
 ---
 layout: page
 description: "Design Blog by Haufe Group"
+navigation_weight: 3
 permalink: /design/
 ---
 

@@ -19,7 +19,7 @@
                 </li>
 		{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
                 {% for page in site.pages %}
-		{% if p.navigation_weight %}
+		{% if page.navigation_weight %}
                 {% if page.title %}
                 <!-- suppress all category and tag meta pages -->
                 {% if page.url contains '/meta/' %}

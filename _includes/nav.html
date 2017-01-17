@@ -17,7 +17,9 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Blog</a>
                 </li>
+		{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
                 {% for page in site.pages %}
+		{% if p.navigation_weight %}
                 {% if page.title %}
                 <!-- suppress all category and tag meta pages -->
                 {% if page.url contains '/meta/' %}
@@ -29,6 +31,7 @@
                 </li>
                 {% endif %}
                 {% endif %}
+		{% endif %}
                 {% endif %}
                 {% endfor %}
             </ul>

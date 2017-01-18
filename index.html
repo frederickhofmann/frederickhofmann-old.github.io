@@ -3,7 +3,7 @@ layout: page
 navigation_weight: 1
 description: "Dev Blog by Haufe Group"
 ---
-
+{% if post.category == "design"%}
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -15,7 +15,6 @@ description: "Dev Blog by Haufe Group"
         </h3>
         {% endif %}
     </a>
-    {% if post.category == "design"%}
     {% if post.author %}
       {% assign author = site.data.authors[post.author] %}
       {% if author %}
@@ -26,11 +25,11 @@ description: "Dev Blog by Haufe Group"
     {% else %}
       {% assign author_name = site.title %}
     {% endif %}
-    {% endif %}
     <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
 {% endfor %}
+{% endif %}
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}

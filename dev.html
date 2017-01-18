@@ -7,7 +7,7 @@ permalink: /dev/
 ---
 
 {% for post in site.posts limit: 5 %}
-{% if page.tags contains tag %}
+{% if page.tags contains page.tags.dev %}
 <div class="post-preview">
     <a href="{{ post.url }}">
         <h2 class="post-title">            {{ post.title }}

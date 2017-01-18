@@ -6,7 +6,8 @@ navigation_weight: 2
 permalink: /dev/
 ---
 
-{% for post in site.tags.dev limit: 5 %}
+{% for post in site.posts limit: 5 %}
+{% if page.tags contains tag %}
 <div class="post-preview">
     <a href="{{ post.url }}">
         <h2 class="post-title">            {{ post.title }}
@@ -30,5 +31,6 @@ permalink: /dev/
     <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
+{% endif %}
 {% endfor %}
 <div class="infinite-spinner"></div>

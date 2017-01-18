@@ -3,7 +3,7 @@ layout: page
 navigation_weight: 1
 description: "Dev Blog by Haufe Group"
 ---
-{% if post.tag == "design"%}
+{% if post.tags == "design" %}
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">

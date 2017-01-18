@@ -6,7 +6,7 @@ navigation_weight: 2
 permalink: /dev/
 ---
 
-{% for post in site.tags.dev %}
+{% for post in site.tags.dev limit: 5 %}
 <div class="post-preview">
     <a href="{{ post.url }}">
         <h2 class="post-title">            {{ post.title }}
@@ -31,3 +31,4 @@ permalink: /dev/
 </div>
 <hr>
 {% endfor %}
+<div class="infinite-spinner"></div>

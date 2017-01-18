@@ -7,7 +7,6 @@ permalink: /dev/
 ---
 
 {% for post in site.posts limit: 5 %}
-{% if page.tags contains page.tags.dev %}
 <div class="post-preview">
     <a href="{{ post.url }}">
         <h2 class="post-title">            {{ post.title }}
@@ -31,6 +30,5 @@ permalink: /dev/
     <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 <hr>
-{% endif %}
 {% endfor %}
 <div class="infinite-spinner"></div>

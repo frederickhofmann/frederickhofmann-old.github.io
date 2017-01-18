@@ -3,7 +3,7 @@ layout: post
 title: The beginnings of our API Journey
 subtitle: Intro to our API Style Guide
 category: api
-tags: [api]
+tags: [api, dev]
 author: holger_reinhardt
 author_email: holger.reinhardt@haufe-lexware.com 
 header-img: "images/bg-post.jpg"

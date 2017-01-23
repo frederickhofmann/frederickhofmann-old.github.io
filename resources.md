@@ -1,7 +1,8 @@
 ---
 layout: page
-navigation_weight: 6
+exclude_from_nav: true
 title: Resources
+navigation_weight: 6
 permalink: /resources/
 ---
 

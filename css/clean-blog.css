@@ -513,9 +513,9 @@ code {
   cursor: pointer;
 }
 
-.logo-negativ { 
+.logo-negative { 
   background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
 }
-.logo-positiv {
+.logo-positive {
   background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
 }

@@ -1043,9 +1043,10 @@ jQuery(document).ready(function($) {
                 if (currentTop < this.previousTop) {
                     //if scrolling up...
                     if (currentTop > 0 && $('.navbar-custom').hasClass('is-fixed')) {
-                        $('.navbar-custom').addClass('is-visible');
+			$('.navbar-custom').removeClass('logo-negative');
+                        $('.navbar-custom').addClass('is-visible logo-positive');
                     } else {
-                        $('.navbar-custom').removeClass('is-visible is-fixed');
+                        $('.navbar-custom').removeClass('is-visible is-fixed logo-positive');
                     }
                 } else {
                     //if scrolling down...

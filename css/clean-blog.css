@@ -89,7 +89,6 @@ hr.small {
 }
 .navbar-custom {
   background-color: transparent;
-  background-repeat: no-repeat;
   border: none;
   position: absolute;
   top: 0;
@@ -105,6 +104,7 @@ hr.small {
 
 #navbar-logo {
   background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+  background-repeat: no-repeat;
   display: block;
   height: 53px;
   width: 167px;
@@ -147,6 +147,7 @@ hr.small {
 	
 #navbar-logo {
   background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+  background-repeat: no-repeat;
   display: block;
   height: 53px;
   width: 167px;

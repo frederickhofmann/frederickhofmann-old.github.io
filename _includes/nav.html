@@ -28,6 +28,7 @@
                 </li>-->		    		    
 		{% assign navigation_pages = site.pages | sort: 'navigation_weight' %}
                 {% for page in site.pages %}
+		{% unless page.exclude_from_nav %}
                 {% if page.title %}
                 <!-- suppress all category and tag meta pages -->
                 {% if page.url contains '/meta/' %}
@@ -42,6 +43,7 @@
                 {% endif %}
 		{% endif %}
                 {% endif %}
+		{% endunless %}
                 {% endfor %}
             </ul>
         </div>

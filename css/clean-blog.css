@@ -512,3 +512,10 @@ code {
 #imgFocus {
   cursor: pointer;
 }
+
+.logo-negativ { 
+  background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+}
+.logo-positiv {
+  background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
+}

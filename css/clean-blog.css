@@ -90,6 +90,7 @@ hr.small {
 .navbar-custom {
   background-color: transparent;
   background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+  text-indent:-9999px;
   background-repeat: no-repeat;
   background-position: 15px 0px !important;
   border: none;
@@ -125,6 +126,7 @@ hr.small {
   .navbar-custom {   
      background-color: transparent;
      background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+     text-indent:-9999px;
      background-repeat: no-repeat;
      background-position: 15px 0px !important;
      border-bottom: 1px solid transparent;

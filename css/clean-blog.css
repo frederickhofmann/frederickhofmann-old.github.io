@@ -515,7 +515,11 @@ code {
 
 .logo-negative { 
   background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+  width: 167px;
+  height: 53px;
 }
 .logo-positive {
   background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
+  width: 167px;
+  height: 53px;
 }

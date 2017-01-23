@@ -14,7 +14,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">	
-                <li>
+                <!--<li>
                     <a href="{{ site.baseurl }}/">Blog</a>
                 </li>
 		    <li>
@@ -25,8 +25,7 @@
                 </li>
 		    <li>
                     <a href="{{ site.baseurl }}/">Blog</a>
-                </li>
-		    		    
+                </li>-->		    		    
 		{% assign navigation_pages = site.pages | sort: 'navigation_weight' %}
                 {% for page in site.pages %}
                 {% if page.title %}

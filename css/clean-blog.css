@@ -89,6 +89,9 @@ hr.small {
 }
 .navbar-custom {
   background-color: transparent;
+  background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+  background-repeat: no-repeat;
+  background-position: 15px 0px !important;
   border: none;
   position: absolute;
   top: 0;
@@ -97,22 +100,6 @@ hr.small {
   z-index: 3;
   font-family: 'HaufeMerriwetherSans';
 }
-
-
-
-
-
-#navbar-logo {
-  background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
-  background-repeat: no-repeat;
-  display: block;
-  height: 53px;
-  width: 167px;
-}
-
-
-
-
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
@@ -137,27 +124,11 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .navbar-custom {   
      background-color: transparent;
+     background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
      background-repeat: no-repeat;
+     background-position: 15px 0px !important;
      border-bottom: 1px solid transparent;
   }
-	
-	
-	
-	
-	
-#navbar-logo {
-  background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
-  background-repeat: no-repeat;
-  display: block;
-  height: 53px;
-  width: 167px;
-}
-	
-	
-	
-	
-	
-	
   .navbar-custom .navbar-brand {
     color: white;
     padding: 20px;
@@ -231,7 +202,7 @@ hr.small {
     background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
     background-repeat: no-repeat;
     background-position: 15px 0px !important;
-  }	
+  }
 }
 .intro-header {
   background: no-repeat center center;

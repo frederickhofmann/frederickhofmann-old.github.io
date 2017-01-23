@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+exclude_from_nav: true
 navigation_weight: 4
 permalink: /about/
 ---

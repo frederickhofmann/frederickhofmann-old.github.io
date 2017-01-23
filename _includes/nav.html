@@ -17,7 +17,17 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Blog</a>
                 </li>
-		{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+		    <li>
+                    <a href="{{ site.baseurl }}/">Blog</a>
+                </li>
+		    <li>
+                    <a href="{{ site.baseurl }}/">Blog</a>
+                </li>
+		    <li>
+                    <a href="{{ site.baseurl }}/">Blog</a>
+                </li>
+		    		    
+		{% assign navigation_pages = site.pages | sort: 'navigation_weight' %}
                 {% for page in site.pages %}
                 {% if page.title %}
                 <!-- suppress all category and tag meta pages -->

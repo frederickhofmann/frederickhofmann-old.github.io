@@ -492,7 +492,7 @@ body {
   margin: auto;
 
 .footer-links {
-	
+  text-align: center;
 }	
 .table-hover > tbody > tr:hover {
   background-color: #F7F7F4;

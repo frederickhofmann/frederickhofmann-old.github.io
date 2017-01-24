@@ -517,21 +517,9 @@ code {
   height: 53px;
   float: left;
 }
-@media only screen and (min-width: 1000px) {
-  .logo-negative { 
-    background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
-  }
-  .logo-positive {
-    background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
-  }  
+.logo-negative { 
+  background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
 }
-.logo-responsive {
-  visibility: hidden;
-}
-
-@media only screen and (min-width: 650px) {
-  .logo-responsive {
-    visibility: visible;
-    background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
-  }
-}
+.logo-positive {
+  background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
+}  

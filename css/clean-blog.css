@@ -517,11 +517,16 @@ code {
   height: 53px;
   float: left;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
   .logo-negative { 
     background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
   }
   .logo-positive {
     background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
+  }  
+}
+@media only screen and (min-width: 768px) {
+  .logo-negative { 
+    background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
   }
 }

@@ -3,15 +3,6 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                   <div class="footer-links"> 
-			   <a href="/">Home</a>
-			   ·
-			   <a href="/about/">About</a>
-			   ·
-			   <a href="/impressum/">Impressum</a>
-			   ·
-			   <a href="/resources/">Resources</a>
-		    </div>
                 <ul class="list-inline text-center">
                     <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
@@ -82,6 +73,15 @@
                     </li>
                     {% endif %}
                 </ul>
+		<div class="footer-links"> 
+			   <a href="/">Home</a>
+			   ·
+			   <a href="/about/">About</a>
+			   ·
+			   <a href="/impressum/">Impressum</a>
+			   ·
+			   <a href="/resources/">Resources</a>
+		</div>    
                 <p class="copyright text-muted">Copyright &copy; <a href="https://www.haufe-lexware.com/" target="_blank">{{ site.copyright_name }}</a> {{ site.time | date: '%Y' }}</p>
                 <img id="footerImg" src="../images/Haufe_Logo_RGB_pos_167x53.png" alt="Haufe-Gruppe">         
             </div>

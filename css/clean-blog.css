@@ -516,7 +516,6 @@ code {
   width: 167px;
   height: 53px;
   float: left;
-  margin: 0px 15px;
 }
 @media only screen and (min-width: 650px) {
   .nav-logo {

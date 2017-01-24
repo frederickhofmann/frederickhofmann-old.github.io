@@ -492,6 +492,8 @@ body {
   margin: auto;
 }
 .footer-links {
+  font-family: 'HaufeMerriwetherSans';
+  font-weight: 600;
   text-align: center;
   padding: 10px;
 }	

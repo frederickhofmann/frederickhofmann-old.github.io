@@ -512,16 +512,14 @@ code {
 #imgFocus {
   cursor: pointer;
 }
-
-.logo-negative { 
-  background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+.nav-logo {
   width: 167px;
   height: 53px;
   float: left;
 }
+.logo-negative { 
+  background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
+}
 .logo-positive {
   background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
-  width: 167px;
-  height: 53px;
-  float: left;
 }

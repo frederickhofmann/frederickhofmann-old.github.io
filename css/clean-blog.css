@@ -525,8 +525,13 @@ code {
     background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
   }  
 }
-@media only screen and (min-width: 768px) {
-  .logo-negative { 
+.logo-responsive {
+  visibility: hidden;
+}
+
+@media only screen and (min-width: 650px) {
+  .logo-responsive {
+    visibility: visible;
     background-image: url("../images/Haufe_Logo_RGB_neg_167x53.png");
   }
 }

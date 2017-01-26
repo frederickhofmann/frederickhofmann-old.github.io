@@ -3,7 +3,7 @@ layout: post
 title: Summary of PayPal InnerSource Summit, 2016
 subtitle: Summary of the PayPal InnerSource Summit in London.
 category: conference
-tags: [devops, culture, open-source]
+tags: [devops, culture, open-source, dev]
 author: holger_reinhardt
 author_email: holger.reinhardt@haufe-lexware.com 
 header-img: "images/bg-post.jpg"

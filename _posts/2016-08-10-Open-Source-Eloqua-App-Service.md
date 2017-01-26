@@ -3,7 +3,7 @@ layout: post
 title: Build an Eloqua Action Service and make it Open-Source  
 subtitle:
 category: general
-tags: [cto, open-source, culture]
+tags: [cto, open-source, culture, dev]
 author: melania_andrisan
 author_email: melania.andrisan@haufe-lexware.com
 header-img: "images/bg-post.alt.jpg"

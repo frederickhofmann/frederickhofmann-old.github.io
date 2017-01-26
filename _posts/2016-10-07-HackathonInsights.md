@@ -3,7 +3,7 @@ layout: post
 title: Project - B#1 
 subtitle: Insights from the Freiburg Hackathon - New online Queue Management in Bürgeramt
 category: product
-tags: [Mobile, Open Source]
+tags: [Mobile, Open Source, dev]
 author: anja_kienzler
 author_email: anja.kienzler@haufe-lexware.com
 header-img: "images/bg-post.alt.jpg"

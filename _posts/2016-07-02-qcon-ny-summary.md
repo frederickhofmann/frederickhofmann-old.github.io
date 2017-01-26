@@ -3,7 +3,7 @@ layout: post
 title: Summary of QCon New York, 2016
 subtitle: Impressions, links and summaries of QCon New York
 category: conference
-tags: [qcon, culture, devops, microservices]
+tags: [qcon, culture, devops, microservices, dev]
 author: holger_reinhardt
 author_email: holger.reinhardt@haufe-lexware.com 
 header-img: "images/bg-post.jpg"

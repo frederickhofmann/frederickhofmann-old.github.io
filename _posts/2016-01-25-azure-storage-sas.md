@@ -3,7 +3,7 @@ layout: post
 title: Providing Secure File Storage through Azure API Management
 subtitle: Shared Access Signatures with Azure Storage
 category: howto
-tags: [security, cloud, api]
+tags: [security, cloud, api, dev]
 author: martin_danielsson
 author_email: martin.danielsson@haufe-lexware.com
 header-img: "images/bg-post.jpg"

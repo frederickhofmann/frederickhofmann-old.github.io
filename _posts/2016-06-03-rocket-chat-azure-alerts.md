@@ -3,7 +3,7 @@ layout: post
 title: Rocket.Chat Integrations
 subtitle: How to integrate social media and other information streams into your Rocket.Chat instance via Webhooks
 category: howto
-tags: [automation, devops]
+tags: [automation, devops, dev]
 author: doru_mihai
 author_email: doru.mihai@haufe-lexware.com
 header-img: "images/bg-post.jpg"

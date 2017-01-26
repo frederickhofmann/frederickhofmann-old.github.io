@@ -3,7 +3,7 @@ layout: post
 title: Software Architecture Day Timisoara on May 18th, 2016
 subtitle: Architecture Strategies for Modern Web Applications
 category: conference
-tags: [api, microservice]
+tags: [api, microservice, dev]
 author: doru_mihai
 author_email: doru.mihai@haufe-lexware.com
 header-img: "images/bg-post.jpg"

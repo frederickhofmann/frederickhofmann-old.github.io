@@ -3,7 +3,7 @@ layout: post
 title: Introducing wicked.haufe.io
 subtitle: Why we wrote our own Open Source API Management Stack based on Mashape Kong and node.js.
 category: api
-tags: [cto, open-source, api, devops]
+tags: [cto, open-source, api, devops, dev]
 author: martin_danielsson
 author_email: martin.danielsson@haufe-lexware.com 
 header-img: "images/bg-post-clover.jpg"

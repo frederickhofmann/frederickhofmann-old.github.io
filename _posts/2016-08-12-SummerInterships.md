@@ -4,7 +4,7 @@ layout: post
 title: Summer Internship @Haufe
 subtitle: An experience that greatly helped me to improve myself
 category: general
-tags: [culture, docker]
+tags: [culture, docker, dev]
 author: Bogdan Bledea
 author_email: bogdan.b19c@gmail.com
 header-img: "images/summerInternships1.jpg"

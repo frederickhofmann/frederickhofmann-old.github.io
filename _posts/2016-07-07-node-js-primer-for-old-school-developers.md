@@ -3,7 +3,7 @@ layout: post
 title: A node.js Primer for us Old School Developers
 subtitle: Things in node.js that caught me on the wrong foot when I saw them the first time
 category: general
-tags: [cto, open-source, culture]
+tags: [cto, open-source, culture, dev]
 author: martin_danielsson
 author_email: martin.danielsson@haufe-lexware.com 
 header-img: "images/bg-post.jpg"

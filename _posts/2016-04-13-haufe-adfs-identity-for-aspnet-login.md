@@ -3,7 +3,7 @@ layout: post
 title: How to use an On-Premise Identity Server in ASP.NET
 subtitle: Log in to an ASP.NET application with ADFS identity and check membership in specific groups
 category: howto
-tags: [cloud]
+tags: [cloud, dev]
 author: Robert Fitch
 author_email: robert.fitch@haufe-lexware.com
 header-img: "images/bg-post.jpg"

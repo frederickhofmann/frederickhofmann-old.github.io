@@ -3,7 +3,7 @@ layout: post
 title: SAP CodeJam on May 12th, 2016
 subtitle: Calling all SAP ABAP Developer in Freiburg area
 category: general
-tags: [culture]
+tags: [culture, dev]
 author: holger_reinhardt
 author_email: holger.reinhardt@haufe-lexware.com 
 header-img: "images/bg-post.jpg"

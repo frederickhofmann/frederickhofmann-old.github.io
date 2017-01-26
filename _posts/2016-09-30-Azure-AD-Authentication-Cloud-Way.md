@@ -3,7 +3,7 @@ layout: post
 title: Azure Active Directory and Authentication the Cloud Way
 subtitle:
 category: howto
-tags: [cloud, automation]
+tags: [cloud, automation, dev]
 author: esmaeil_sarabadani
 author_email: esmaeil.sarabadani@haufe-lexware.com
 header-img: "images/bg-post.jpg"

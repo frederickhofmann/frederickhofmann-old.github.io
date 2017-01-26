@@ -3,7 +3,7 @@ layout: post
 title: IRC and the Age of Chatops
 subtitle: How developer culture, devops and ux are influenced by the renaisance of IRC
 category: general
-tags: [culture, devops, cto]
+tags: [culture, devops, cto, dev]
 author: holger_reinhardt
 author_email: holger.reinhardt@haufe-lexware.com 
 header-img: "images/bg-post.jpg"

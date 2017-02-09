@@ -15,20 +15,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-<div id="search">
-    <script>
-  (function() {
-    var cx = '005494856051464073858:zjul8mhaesi';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:searchbox-only></gcse:searchbox-only>
-</div>
 		{% assign navigation_pages = site.pages | sort: 'navigation_weight' %}
                 {% for page in site.pages %}
 		{% unless page.exclude_from_nav %}

@@ -3,6 +3,13 @@ layout: page
 navigation_weight: 1
 description: "Blog by Haufe Group"
 ---
+
+<form action="/search.html" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">

@@ -530,4 +530,8 @@ code {
 }
 .logo-positive {
   background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
-}  
+} 
+
+#search {
+margin-bottom: 0px 0px 0px 35px;
+}

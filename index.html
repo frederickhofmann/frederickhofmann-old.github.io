@@ -3,6 +3,9 @@ layout: page
 navigation_weight: 1
 description: "Blog by Haufe Group"
 ---
+<div id="search">
+    <gcse:searchbox-only></gcse:searchbox-only>
+</div>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">

@@ -7,6 +7,6 @@ $(function () {
     animationInSpeed: 200, // Animation in speed (ms)
     animationOutSpeed: 200, // Animation out speed (ms)
     scrollText: 'Scroll to top', // Text for element
-    activeOverlay: '#00FFFF', // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
   });
 });

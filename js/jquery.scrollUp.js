@@ -56,7 +56,7 @@
                 position: 'absolute',
                 'top': o.scrollDistance + 'px',
                 width: '100%',
-                borderTop: '0px dotted' + o.activeOverlay,
+                borderTop: '1px dotted' + o.activeOverlay,
                 zIndex: o.zIndex
             }).appendTo('body');
         }

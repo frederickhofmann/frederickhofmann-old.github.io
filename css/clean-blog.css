@@ -582,3 +582,12 @@ ul.tag-box li a {
 ul.tag-box li span.size {
     font-weight: 300;
 }
+
+/* Scroll Back to top */
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+}

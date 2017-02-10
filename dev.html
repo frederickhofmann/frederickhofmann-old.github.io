@@ -6,10 +6,7 @@ navigation_weight: 2
 permalink: /dev/
 ---
 <!-- BEGINN -->
-This page displays the site's tags in alphabetical order and shows how many posts there are per tag, makes anchor links for each tag, then outputs posts by tag in reverse chronological order. 
-
-### Posts by tag
-
+<h4> Posts by tag </h4>
 {% assign sorted_tags = (site.tags | sort:0) %}
 <ul class="tag-box">
 	{% for tag in sorted_tags %}

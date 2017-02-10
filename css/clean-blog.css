@@ -531,7 +531,7 @@ code {
 .logo-positive {
   background-image: url("../images/Haufe_Logo_RGB_pos_167x53.png");
 } 
-
+/*Google Search Bar */
 #searchBar {
        font-size: 80%;
        padding: 0.43em 0 0.57em;
@@ -566,3 +566,19 @@ code {
          }
        }
      }
+/* Tag List */
+ul.tag-box li {
+    display: inline-block;
+    list-style: none;
+    list-style-image: none;
+    margin-bottom: 7px;
+}
+ul.tag-box li a {
+    background: #e6e6e6;
+    padding: 4px 8px;
+    border-radius: 3px;
+    color: #F76B48;
+}
+ul.tag-box li span.size {
+    font-weight: 300;
+}

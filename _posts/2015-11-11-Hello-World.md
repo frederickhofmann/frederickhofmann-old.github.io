@@ -6,7 +6,7 @@ category: general
 tags: [cto, culture, dev, design]
 author: holger_reinhardt
 author_email: holger.reinhardt@haufe-lexware.com 
-header-img: "images/bg-post.jpg"
+header-img: "images/background_design.jpg"
 ---
 
 So how does one start a developer blog? It is pretty intimidating to look at blank editor (BTW, I use [Mou](http://25.io/mou/) to write this post ;) and think about some witty content, some heading which would rope you in and make you want to read what we have to say. But why should you? And who are we anyhow?

@@ -6,7 +6,7 @@ category: conference
 tags: [culture, microservice, api]
 author: daniel_bryant
 author_email: daniel.bryant@opencredo.com
-header-img: "images/pexels-photo-112934_800px_dark.jpg"
+header-img: "images/background_dev.jpg"
 ---
 
 Two weeks ago we (Lorenzo Nicora and Daniel Bryant from OpenCredo) had the pleasure of visiting the Haufe Group architect and development teams in Freiburg, Germany, to contribute to the ‘Microservices Architecture Day’ conference. Topics covered by the Haufe and OpenCredo teams included microservice development and antipatterns, reactive principles, actor-based systems, event sourcing, and API management. We’ve summarised our key learnings below, and we are always keen to receive feedback and questions

@@ -583,6 +583,11 @@ ul.tag-box li span.size {
     font-weight: 300;
 }
 
+input[type="search"] {
+    width:75%;
+    padding: 0.5em 0.75em;
+}
+
 /* Scroll Back to top */
 #scrollUp {
     bottom: -10px;

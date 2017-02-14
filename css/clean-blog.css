@@ -607,9 +607,7 @@ ul.tag-box li span.size {
   border-radius: 0;
 }
 
-.search-button input:hover,
-.search-button input:focus {
-  color: white;
+input:hover[type="submit"] {
   background-color: #005DA5;
   border: 1px solid #005DA5;
 }

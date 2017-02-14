@@ -588,6 +588,10 @@ input[type="search"] {
     padding: 0.5em 0.75em;
 }
 
+.search-box {
+   border: 1px solid #ddd;
+}
+
 .search-button {
   font-family: 'HaufeMerriwetherSans';
   text-transform: uppercase;

@@ -30,8 +30,7 @@ layout: null
         "link": "{{ site.baseurl }}{{ post.url }}",
         "date": "{{ post.date }}",
         "excerpt": "{{ post.snippet }}",
-        "search_omit": "{{ post.search_omit }}",
-        "author_name": "{{ post.author | jsonify }}"
+        "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
     {% endif %}

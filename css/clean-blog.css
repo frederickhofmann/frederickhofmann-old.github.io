@@ -620,6 +620,12 @@ input:hover[type="submit"] {
    }
 }
 
+.search-result-counter {
+  font-family: 'HaufeMerriwetherSans';
+  font-size: 14px;
+  font-weight: 300;
+}
+
 /* Scroll Back to top */
 #scrollUp {
     bottom: -10px;

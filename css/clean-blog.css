@@ -588,6 +588,32 @@ input[type="search"] {
     padding: 0.5em 0.75em;
 }
 
+.search-button {
+  font-family: 'HaufeMerriwetherSans';
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 10px 5px;
+  background-color: white;
+  border-radius: 0;
+}
+
+.search-button input:hover,
+.search-button input:focus {
+  color: white;
+  background-color: #005DA5;
+  border: 1px solid #005DA5;
+}
+
+@media only screen and (min-width: 768px) {
+  .search-button {
+     font-size: 14px;
+     padding: 15px 25px;
+   }
+}
+
 /* Scroll Back to top */
 #scrollUp {
     bottom: -10px;

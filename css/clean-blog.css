@@ -589,7 +589,14 @@ input[type="search"] {
 }
 
 .search-box {
-   border: 1px solid #ddd;
+  font-family: 'HaufeMerriwetherSans';
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 10px 5px;
+  border: 1px solid #ddd;
 }
 
 .search-button {

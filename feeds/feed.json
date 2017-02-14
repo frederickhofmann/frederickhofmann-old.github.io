@@ -31,7 +31,7 @@ layout: null
         "date": "{{ post.date }}",
         "excerpt": "{{ post.snippet }}",
         "search_omit": "{{ post.search_omit }}",
-        "author_name": "{{ post.author }}"
+        "author_name": "{{ post.author | jsonify }}"
     }
     {% assign first = false %}
     {% endif %}

@@ -588,10 +588,10 @@ ul.tag-box li span.size {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 300;
   letter-spacing: 1px;
-  width:75%;
-  padding: 10px 5px;
+  width:85%;
+  padding: 15px 5px;
   border: 1px solid #ddd;
 }
 

@@ -47,7 +47,7 @@ layout: null
         "date": {{ page.date | jsonify }},
         "excerpt": {{ page.description | jsonify }},
         "search_omit": "{{ page.search_omit }}",
-        "author": "{{ page.author | jsonify }}"
+        "author": "{{ page.author }}"
     }
     {% assign first = false %}
     {% endif %}

@@ -28,7 +28,7 @@ layout: null
         "title": {{post.title | jsonify}},
         "content": {{post.content | markdownify | strip_html | jsonify}},
         "link": "{{ site.baseurl }}{{ post.url }}",
-        "date": "{{ post.date }}",
+        "date": "{{ post.date | date: "%-d %B %Y" }}",
         "excerpt": "{{ post.snippet }}",
         "search_omit": "{{ post.search_omit }}"
     }
@@ -42,7 +42,7 @@ layout: null
         "title": {{page.title | jsonify}},
         "content": {{page.content | strip_html | jsonify}},
         "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
-        "date": {{ page.date | date: "%-d %B %Y" | jsonify }},
+        "date": {{ page.date | jsonify }},
         "excerpt": {{ page.description | jsonify }},
         "search_omit": "{{ page.search_omit }}"
     }

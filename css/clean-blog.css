@@ -621,7 +621,7 @@ input:hover[type="submit"] {
 
 @media only screen and (min-width: 650px) {
    .search-box {
-	width:85%;   
+	width:65%;   
     }
 }
 

@@ -614,10 +614,15 @@ input:hover[type="submit"] {
 }
 
 @media only screen and (min-width: 768px) {
-  .search-button {
-     font-size: 14px;
-     padding: 15px 25px;
-   }
+   .search-box {
+	width:75%;   
+    }
+}
+
+@media only screen and (min-width: 650px) {
+   .search-box {
+	width:65%;   
+    }
 }
 
 .search-result-counter {

@@ -13,7 +13,8 @@ layout: null
                 "link": "{{ site.baseurl }}{{ item.url }}",
                 "date": "{{ item.date }}",
                 "excerpt": "{{ item.snippet }}",
-                "search_omit": "{{ item.search_omit }}"
+                "search_omit": "{{ item.search_omit }}",
+                "author": "{{ item.author }}"
             }
             {% assign first = false %}
             {% endif %}
@@ -30,7 +31,8 @@ layout: null
         "link": "{{ site.baseurl }}{{ post.url }}",
         "date": "{{ post.date | date: "%-d %B %Y" }}",
         "excerpt": "{{ post.snippet }}",
-        "search_omit": "{{ post.search_omit }}"
+        "search_omit": "{{ post.search_omit }}",
+        "autor": "{{ post.author }}"
     }
     {% assign first = false %}
     {% endif %}
@@ -44,7 +46,8 @@ layout: null
         "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
         "excerpt": {{ page.description | jsonify }},
-        "search_omit": "{{ page.search_omit }}"
+        "search_omit": "{{ page.search_omit }}",
+        "author": "{{ page.author }}"
     }
     {% assign first = false %}
     {% endif %}

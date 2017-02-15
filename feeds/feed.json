@@ -14,7 +14,7 @@ layout: null
                 "date": "{{ item.date }}",
                 "excerpt": "{{ item.snippet }}",
                 "search_omit": "{{ item.search_omit }}",
-                "autor": "{{ item.author }}"
+                "author": "{{ item.author }}"
             }
             {% assign first = false %}
             {% endif %}
@@ -32,7 +32,7 @@ layout: null
         "date": "{{ post.date | date: "%-d %B %Y" }}",
         "excerpt": "{{ post.snippet }}",
         "search_omit": "{{ post.search_omit }}",
-        "autor": "{{ post.author }}"
+        "author": "{{ post.author }}"
     }
     {% assign first = false %}
     {% endif %}
@@ -47,7 +47,7 @@ layout: null
         "date": {{ page.date | jsonify }},
         "excerpt": {{ page.description | jsonify }},
         "search_omit": "{{ page.search_omit }}",
-        "autor": "{{ papge.author | jsonify }}"
+        "author": "{{ page.author | jsonify }}"
     }
     {% assign first = false %}
     {% endif %}

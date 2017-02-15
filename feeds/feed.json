@@ -45,7 +45,8 @@ layout: null
         "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
         "date": {{ page.date | jsonify }},
         "excerpt": {{ page.description | jsonify }},
-        "search_omit": "{{ page.search_omit }}"
+        "search_omit": "{{ page.search_omit }}",
+        "autor": "{{ papge.author | jsonify }}"
     }
     {% assign first = false %}
     {% endif %}

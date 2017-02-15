@@ -619,6 +619,10 @@ input:hover[type="submit"] {
     }
 }
 
+.search-form {
+    margin: 0 auto
+}
+
 .search-result-counter {
   font-family: 'HaufeMerriwetherSans';
   font-size: 14px;

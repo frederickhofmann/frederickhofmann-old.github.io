@@ -630,8 +630,7 @@ input:hover[type="submit"] {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
+    background: #33332E;
     width: 50px;
     height: 50px;
     display: block;
@@ -660,7 +659,7 @@ input:hover[type="submit"] {
     transition: all 0.3s ease;
 }
 #return-to-top:hover {
-    background: rgba(0, 0, 0, 0.9);
+    background: #005DA5;
 }
 #return-to-top:hover i {
     color: #fff;

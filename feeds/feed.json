@@ -13,7 +13,8 @@ layout: null
                 "link": "{{ site.baseurl }}{{ item.url }}",
                 "date": "{{ item.date }}",
                 "excerpt": "{{ item.snippet }}",
-                "search_omit": "{{ item.search_omit }}"
+                "search_omit": "{{ item.search_omit }}",
+                "autor": "{{ item.author }}"
             }
             {% assign first = false %}
             {% endif %}

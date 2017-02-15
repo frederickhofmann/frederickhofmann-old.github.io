@@ -29,7 +29,7 @@ layout: null
         "title": {{post.title | jsonify}},
         "content": {{post.content | markdownify | strip_html | jsonify}},
         "link": "{{ site.baseurl }}{{ post.url }}",
-        "date": "{{ post.date | date: "%-d %B %Y" }}",
+        "date": "{{ post.date | date: "%B %-d, %Y" }}",
         "excerpt": "{{ post.snippet }}",
         "search_omit": "{{ post.search_omit }}",
         "author": "{{ post.author }}"

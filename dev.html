@@ -5,6 +5,50 @@ description: "Dev Blog by Haufe Group"
 navigation_weight: 2
 permalink: /dev/
 ---
+<script>
+// init Isotope
+var $grid = $('.grid').isotope({
+  // options
+});
+// filter items on button click
+$('.filter-button-group').on( 'click', 'a', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+$('.button-group a.button').on('click', function(){
+    $('.button-group a.button').removeClass('active');
+    $(this).addClass('active');
+});    
+</script>
+
+<!--beginn buttons -->
+<div class="button-group filter-button-group">
+    {% for category in site.categories %}
+        <a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
+    {% endfor %}
+        <a class="button active" data-filter="*">All</a>
+</div>
+<!--end buttons -->
+
+<!--beginn posts -->
+<div class="grid">
+    {% for post in site.posts %}
+     <div class="element-item {{ post.category }}">
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+
+        <p>
+          {{ post.excerpt }}
+        </p>
+     </div>
+    {% endfor %}
+</div>
+<!-- end posts -->
+
+<!--
 {% for post in site.tags.dev %}
 <div class="post-preview">
     <a href="{{ post.url }}">
@@ -30,3 +74,4 @@ permalink: /dev/
 </div>
 <hr>
 {% endfor %}
+-->

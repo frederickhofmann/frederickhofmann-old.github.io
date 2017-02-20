@@ -6,10 +6,10 @@ navigation_weight: 2
 permalink: /dev/
 ---
 <div class="button-group filter-button-group">
-	{% for tags in site.tags %}
-		<a class="button" data-filter=".{{ tag }}">{{ tag }}</a>
-	{% endfor %}
-		<a class="button active" data-filter="*">All</a>
+    {% for category in site.categories %}
+        <a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
+    {% endfor %}
+        <a class="button active" data-filter="*">All</a>
 </div>
 
 <div class="grid">

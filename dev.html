@@ -7,7 +7,7 @@ permalink: /dev/
 ---
 <div class="button-group filter-button-group">
 	{% for tags in site.tags %}
-		<a class="button" data-filter=".{{ tag | first }}">{{ tag | first }}</a>
+		<a class="button" data-filter=".{{ tag }}">{{ tag }}</a>
 	{% endfor %}
 		<a class="button active" data-filter="*">All</a>
 </div>

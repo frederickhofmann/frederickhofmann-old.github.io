@@ -15,15 +15,20 @@ permalink: /dev/
 <div class="grid">
     {% for post in site.posts %}
      <div class="element-item {{ post.category }}">
-        <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-
-        <p>
-          {{ post.excerpt }}
-        </p>
+    {% if post.author %}
+      {% assign author = site.data.authors[post.author] %}
+      {% if author %}
+        {% assign author_name = author.name %}
+      {% else %}
+        {% assign author_name = post.author %}
+      {% endif %}
+    {% else %}
+      {% assign author_name = site.title %}
+    {% endif %}
+    <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
      </div>
     {% endfor %}
 </div>

@@ -15,7 +15,7 @@ permalink: /dev/
 <div class="grid">
     {% for post in site.posts %}
      <div class="element-item {{ post.category }}">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

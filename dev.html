@@ -6,26 +6,38 @@ navigation_weight: 2
 permalink: /dev/
 ---
 <div class="button-group filter-button-group">
-	{% for category in site.categories %}
-		<a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
+	{% for tags in site.tags %}
+		<a class="button" data-filter=".{{ tag | first }}">{{ tag | first }}</a>
 	{% endfor %}
 		<a class="button active" data-filter="*">All</a>
 </div>
 
 <div class="grid">
-	{% for post in site.posts %}
-     <div class="element-item {{ post.category }}">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	{% for post in site.tags.dev %}
+<div class="post-preview">
+    <a href="{{ post.url }}">
+        <h2 class="post-title">            {{ post.title }}
         </h2>
-
-        <p>
-          {{ post.excerpt }}
-        </p>
-     </div>
-    {% endfor %}
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    {% if post.author %}
+      {% assign author = site.data.authors[post.author] %}
+      {% if author %}
+        {% assign author_name = author.name %}
+      {% else %}
+        {% assign author_name = post.author %}
+      {% endif %}
+    {% else %}
+      {% assign author_name = site.title %}
+    {% endif %}
+    <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
 </div>
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>

@@ -14,10 +14,23 @@ permalink: /dev/
 
 <div class="grid">
     {% for post in site.posts %}
-     <div class="element-item {{ post.category }}">
+     	<div class="post-preview">
+	
+	<!--<div class="element-item {{ post.category }}">
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>-->
+		
+	<a href="{{ post.url }}">
+        <h2 class="post-title">            {{ post.title }}
         </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+	
     {% if post.author %}
       {% assign author = site.data.authors[post.author] %}
       {% if author %}

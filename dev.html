@@ -5,6 +5,19 @@ description: "Dev Blog by Haufe Group"
 navigation_weight: 2
 permalink: /dev/
 ---
+<script src="/js/infinite-jekyll.js"></script>
+
+{% for post in site.posts limit: 10 %}  
+<li>
+    <h2>{{ post.title }}</h2>
+    <p class="meta">{{ post.date | date_to_string }}</p>
+
+    <div class="post">
+    {{ post.content }}
+    </div>
+</li>
+{% endfor %}
+
 {% for post in site.tags.dev %}
 <div class="post-preview">
     <a href="{{ post.url }}">

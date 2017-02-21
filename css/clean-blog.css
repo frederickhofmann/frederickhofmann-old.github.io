@@ -686,6 +686,10 @@ input:hover[type="submit"] {
   animation: scaleout 1.0s infinite ease-in-out;
 }
 
+.button-group{
+  margin-bottom: 30px;
+}
+
 a.button {
   font-family: 'HaufeMerriwetherSans';
   cursor: pointer;

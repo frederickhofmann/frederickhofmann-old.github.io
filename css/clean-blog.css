@@ -511,7 +511,7 @@ code {
   cursor: pointer;
 }
 .nav-logo {
-  width: 215px;
+  width: 220px;
   height: 20px;
   margin-top: 18px;
   float: left;
@@ -528,9 +528,13 @@ code {
 }
 .logo-negative { 
   background-image: url("../images/HaufeGroup_Logo_RGB_neg.png");
+  background-size: 220px;
+  background-repeat: no-repeat;
 }
 .logo-positive {
   background-image: url("../images/HaufeGroup_Logo_RGB_pos.png");
+  background-size: 220px;
+  background-repeat: no-repeat;
 } 
 /*Google Search Bar */
 #searchBar {

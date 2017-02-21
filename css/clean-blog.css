@@ -489,7 +489,9 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 #footerImg {
-  margin: auto;
+    width: 250px;
+    margin: auto;
+    margin-top: 40px;
 }
 .footer-links {
   font-family: 'HaufeMerriwetherSansLt';

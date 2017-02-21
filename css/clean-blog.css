@@ -492,6 +492,7 @@ body {
     width: 250px;
     margin: auto;
     margin-top: 40px;
+    cursor: pointer;
 }
 .footer-links {
   font-family: 'HaufeMerriwetherSansLt';

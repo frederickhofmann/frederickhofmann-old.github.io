@@ -511,8 +511,9 @@ code {
   cursor: pointer;
 }
 .nav-logo {
-  width: 285px;
-  height: 27px;
+  width: 150px;
+  height: 14px;
+  margin-top: 18px;
   float: left;
 }
 @media only screen and (max-width: 650px) {
@@ -522,7 +523,7 @@ code {
 }
 @media only screen and (max-width: 768px) {
   .nav-logo {
-     margin: 0px 15px;
+     margin: 12px 15px;
    }
 }
 .logo-negative { 

@@ -685,3 +685,15 @@ input:hover[type="submit"] {
   -webkit-animation: scaleout 1.0s infinite ease-in-out;
   animation: scaleout 1.0s infinite ease-in-out;
 }
+
+a.button.hover {
+   background: #F76B48;
+   border: 1px solid #F76B48;
+   color: #fff;
+}
+
+a.button.active {
+   background: #F76B48;
+   border: 1px solid #F76B48;
+   color: #fff;
+}

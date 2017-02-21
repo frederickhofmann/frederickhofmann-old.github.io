@@ -698,7 +698,7 @@ a.button {
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 0;
-  line-height: 4.5;
+  line-height: 4;
 }
 
 a.button.focus,

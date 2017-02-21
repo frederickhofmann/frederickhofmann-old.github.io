@@ -686,14 +686,29 @@ input:hover[type="submit"] {
   animation: scaleout 1.0s infinite ease-in-out;
 }
 
-a.button.focus {
-   color: white;
-   background-color: #005DA5;
-   border: 1px solid #005DA5;
+a.button {
+  font-family: 'HaufeMerriwetherSans';
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 15px 30px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 0;
+}
+
+a.button.focus,
+a.button.hover {
+  color: white;
+  background-color: #005DA5;
+  border: 1px solid #005DA5;
 }
 
 a.button.active {
-   background: #F76B48;
-   border: 1px solid #005DA5;
-   color: #fff;
+  color: white;
+  background-color: #005DA5;
+  border: 1px solid #005DA5;
 }

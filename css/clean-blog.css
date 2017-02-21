@@ -686,14 +686,14 @@ input:hover[type="submit"] {
   animation: scaleout 1.0s infinite ease-in-out;
 }
 
-a.button.hover {
-   background: #F76B48;
-   border: 1px solid #F76B48;
-   color: #fff;
+a.button.focus {
+   color: white;
+   background-color: #005DA5;
+   border: 1px solid #005DA5;
 }
 
 a.button.active {
    background: #F76B48;
-   border: 1px solid #F76B48;
+   border: 1px solid #005DA5;
    color: #fff;
 }

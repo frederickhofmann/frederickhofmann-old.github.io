@@ -523,7 +523,7 @@ code {
 }
 @media only screen and (max-width: 768px) {
   .nav-logo {
-     margin: 12px 15px;
+     margin: 16px 15px;
    }
 }
 .logo-negative { 

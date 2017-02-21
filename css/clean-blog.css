@@ -511,8 +511,8 @@ code {
   cursor: pointer;
 }
 .nav-logo {
-  width: 150px;
-  height: 14px;
+  width: 215px;
+  height: 20px;
   margin-top: 18px;
   float: left;
 }
@@ -527,10 +527,10 @@ code {
    }
 }
 .logo-negative { 
-  background-image: url("../images/HaufeGroup_Logo_RGB_neg_150x14.png");
+  background-image: url("../images/HaufeGroup_Logo_RGB_neg_215x20.png");
 }
 .logo-positive {
-  background-image: url("../images/HaufeGroup_Logo_RGB_pos_150x14.png");
+  background-image: url("../images/HaufeGroup_Logo_RGB_pos_215x20.png");
 } 
 /*Google Search Bar */
 #searchBar {

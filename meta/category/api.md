@@ -3,5 +3,5 @@ layout: post_by_category
 title: API
 category: api
 permalink: /meta/category/api/
-header-img: images/bg-post.jpg
+header-img: images/new/Exportiert_19.jpg
 ---

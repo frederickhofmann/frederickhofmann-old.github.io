@@ -3,5 +3,5 @@ layout: post_by_tag
 title: Design
 tag: design
 permalink: /meta/tag/design/
-header-img: images/bg-post.jpg
+header-img: images/new/Exportiert_35.jpg
 ---

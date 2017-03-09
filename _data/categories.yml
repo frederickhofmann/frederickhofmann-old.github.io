@@ -1,3 +1,9 @@
+- slug: dev
+  name: Dev
+  
+- slug: design
+  name: Design
+
 - slug: general
   name: General
 

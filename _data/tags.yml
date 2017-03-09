@@ -6,6 +6,9 @@
   
 - slug: conference
   name: Conference
+  
+- slug: readinglist
+  name: Reading List
 
 - slug: culture
   name: Culture

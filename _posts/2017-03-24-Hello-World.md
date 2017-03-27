@@ -2,7 +2,7 @@
 layout: post
 title: We are live and here - the Design Office
 subtitle: The 'Hello World' Post
-category: general
+category: design
 tags: [cto, culture, design]
 author: claudius_wissler
 author_email: claudius.wissler@haufe-lexware.com 

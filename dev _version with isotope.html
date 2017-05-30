@@ -1,0 +1,90 @@
+---
+layout: page
+title: Dev
+description: "Dev Blog by Haufe Group"
+search_omit: true
+navigation_weight: 2
+permalink: /dev/
+---
+
+<!-- isotope jekyll code, from 2017-Mai, fredho02
+
+<div class="button-group filter-button-group">
+	<a class="button active" data-filter="*">All</a>
+	{% for category in site.categories.dev %}
+		<a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
+	{% endfor %}
+</div>
+
+<div class="grid">
+    {% for post in site.posts %}
+     	<div class="element-item {{ post.category }} post-preview">		
+	<a href="{{ post.url }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>	
+    {% if post.author %}
+      {% assign author = site.data.authors[post.author] %}
+      {% if author %}
+        {% assign author_name = author.name %}
+      {% else %}
+        {% assign author_name = post.author %}
+      {% endif %}
+    {% else %}
+      {% assign author_name = site.title %}
+    {% endif %}
+    <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+     </div>
+    {% endfor %}
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+<script>
+	// init Isotope
+	var $grid = $('.grid').isotope({
+	  // options
+	});
+	// filter items on button click
+	$('.filter-button-group').on( 'click', 'a', function() {
+	  var filterValue = $(this).attr('data-filter');
+	  $grid.isotope({ filter: filterValue });
+	});
+	$('.button-group a.button').on('click', function(){
+		$('.button-group a.button').removeClass('active');
+		$(this).addClass('active');
+	});
+</script>
+-->
+
+
+{% for post in site.categories.dev %}
+<div class="post-preview">
+    <a href="{{ post.url }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    {% if post.author %}
+      {% assign author = site.data.authors[post.author] %}
+      {% if author %}
+        {% assign author_name = author.name %}
+      {% else %}
+        {% assign author_name = post.author %}
+      {% endif %}
+    {% else %}
+      {% assign author_name = site.title %}
+    {% endif %}
+    <p class="post-meta">Posted by {{ author_name }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}

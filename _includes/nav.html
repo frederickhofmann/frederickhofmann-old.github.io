@@ -20,11 +20,11 @@
 		{% unless page.exclude_from_nav %}
                 {% if page.title %}
                 <!-- suppress all category and tag meta pages -->
-                {% if page.url contains '/meta/' %}
-                {% else %}
-		{% if page.url contains '404' %}
-                {% else %}
-		{% if page.navigation_weight %}
+				{% if page.url contains '/meta/' %}
+					{% else %}
+				{% if page.url contains '404' %}
+					{% else %}
+				{% if page.navigation_weight %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>

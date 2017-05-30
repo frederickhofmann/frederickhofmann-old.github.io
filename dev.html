@@ -6,9 +6,12 @@ search_omit: true
 navigation_weight: 2
 permalink: /dev/
 ---
+
+<!-- isotope jekyll code, from 2017-Mai, fredho02
+
 <div class="button-group filter-button-group">
 	<a class="button active" data-filter="*">All</a>
-	{% for category in site.categories %}
+	{% for category in site.categories.dev %}
 		<a class="button" data-filter=".{{ category | first }}">{{ category | first }}</a>
 	{% endfor %}
 </div>
@@ -57,9 +60,10 @@ permalink: /dev/
 		$(this).addClass('active');
 	});
 </script>
+-->
 
-<!--
-{% for post in site.tags.dev %}
+
+{% for post in site.categories.dev %}
 <div class="post-preview">
     <a href="{{ post.url }}">
         <h2 class="post-title">            {{ post.title }}
@@ -84,4 +88,3 @@ permalink: /dev/
 </div>
 <hr>
 {% endfor %}
--->

@@ -6,7 +6,7 @@ category: dev
 tags: [conference, devops, microservice, development]
 author: Elias Weingaertner
 author_email: elias.weingaertner@haufe-lexware.com
-header-img: "images/bg-post.jpg"
+header-img: "images/new/Exportiert_18.jpg"
 ---
 
 Two weeks ago, I attended the DevOp Conference (DevOpsCon) in Munich. As expected, it turned out to be the Mecca for Docker fans and Microservice enthusiasts. While I really enjoyed the conference, I drew two somehow controversial conclusions that are open for debate:

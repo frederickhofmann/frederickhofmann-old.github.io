@@ -6,7 +6,7 @@ category: dev
 tags: [howto, security, cloud, development]
 author: Martin Danielsson
 author_email: martin.danielsson@haufe-lexware.com 
-header-img: "images/new/Exportiert_18.jpg"
+header-img: "images/new/Exportiert_23.jpg"
 ---
 
 [Let's Encrypt](https://letsencrypt.org/) is a new Certificate Authority which has a couple of benefits almost unheard of before: It's free, automated and open. This means you can actually use Let's Encrypt to create real SSL certificates which will be accepted as valid by web browsers and others.

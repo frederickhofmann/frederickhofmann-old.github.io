@@ -2,11 +2,11 @@
 layout: post
 title: The state of our API Strategy
 subtitle: From a response to a sales call by an API Management vendor.
-category: api
-tags: [api, cto, dev]
-author: holger_reinhardt
+category: dev
+tags: [api, cto, development]
+author: Holger Reinhardt
 author_email: holger.reinhardt@haufe-lexware.com 
-header-img: "images/bg-post.jpg"
+header-img: "images/new/Exportiert_51.jpg"
 
 ---
 

@@ -4,7 +4,7 @@ title: We are live and here - the Design Office
 subtitle: The 'Hello World' Post
 category: design
 tags: [general, culture, design]
-author: claudius_wissler
+author: Claudius Wissler
 author_email: claudius.wissler@haufe-lexware.com 
 header-img: "images/background_design.jpg"
 ---

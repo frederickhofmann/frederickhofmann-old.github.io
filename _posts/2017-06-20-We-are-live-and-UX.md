@@ -9,7 +9,7 @@ author_email: claudius.wissler@haufe-lexware.com
 header-img: "images/background_design.jpg"
 ---
 
-##We are live and UX!
+## We are live and UX!
 
 Today I’d like to introduce our first article on our freshly updated Haufe Group Work Blog.
 My name is Claudius and I’ Chief Designer at Haufe Group. I 
@@ -21,6 +21,8 @@ I believe in that!
 
 We all have to work together, work towards one goal, to be everyone a part of UX. Let me explain what that means in detail: 
 
+{:.center}
+![UX and Venn](/images/wicked-0-11-0/deployment-architecture.png){:style="margin:auto"}
 image
 
 Venn and UX
@@ -31,19 +33,20 @@ Venn and UX
 -	We have to create a design for the user not a design for the designer. 
 -	The designer cannot only think about the small picture but it is vital they must view the big picture. 
 
-###End to End
+### End to End
 To create not only a single experience but a unforgettable and coherent brand experience we have to consider (keep in mind) all touchpoints for the customers if it is print, digital or something else, its respective context in time and space and the user’s emotions.
 
 It’s important to note, that a bad business strategy can’t be saved by technology or design, that poor technological realization can’t be saved by design or a good business strategy, and that poor design can screw it up all. So let’s work on getting the best out of every discipline.
 
-##What is a good UX model for bigger companies?
+## What is a good UX model for bigger companies?
+
 There are a lot of good UX examples, first of all Apple (just think of the groundbreaking impact of the iPhone in the industry and our lives), Google (from search engine to selfdriving cars?), Uber and many other brands which changed our lives forever. To show you that not only we are UX but that UX is everywhere and anytime, today I want to present you a different example of UX.  
 So, ladies and gentlemen, to keep you interested, I have a little UX mystery for you to solve. Here are some clues and whoever solves the mystery wins a special prize. 
 When you think you know the answer, please raise your hand and I will point to you. Let‘s begin!
 
 Well done to the music specialist! Please come and collect the prize – a round of applause please. 
 
-###It’s UX because it’s …
+### It’s UX because it’s …
 Now you may ask: Why is this a good example for UX? Let me explain:
 According to the Rolling Stone magazine in 2013 they said that this record is the most important record in the World! From 1967 until 1971 it was the most selling album of the World. To this day it is ranked 59 of the World.
 
@@ -82,7 +85,7 @@ They carried out what we today call User Testing as they provided small Radio St
 They didn’t know it then, but they made a classical Design-Thinking Process.
 
 
-##At the End.
+## At the End.
 So let us work on the same company’s vision.
 
 They drove technicians crazy by trying out things never tried out before, applying their inspirational creativity to all departments participating in the production. And the result is something extraordinary.

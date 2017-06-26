@@ -20,10 +20,10 @@ I believe in that!
 We all have to work together, work towards one goal, to be everyone a part of UX. Let me explain what that means in detail: 
 
 {:.center}
-![UX and Venn](/images/wicked-0-11-0/deployment-architecture.png){:style="margin:auto"}
+![UX and Venn](/images/design/Blog_Bild1.jpg){:style="margin:auto"}
 image
 
-Venn and UX
+## Venn and UX
 -	For example business must have a vision and a clear direction. We can‘t expect that all parts work together successfully if they don’t have a clear vision.  
 -	Technology must have good software architecture. This is the base for everything else.
 -	The user doesn’t like or even gets really annoyed about bugs in their system but the user loves performance. 

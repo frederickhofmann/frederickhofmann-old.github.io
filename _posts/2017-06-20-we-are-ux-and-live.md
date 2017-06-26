@@ -1,7 +1,7 @@
 ---
 layout: post
-title: We are live and UX
-subtitle: The first Design Office Post
+title: We are UX & we are live
+subtitle: The first Design Office post
 category: design
 tags: [general, culture, design]
 author: Claudius Wissler
@@ -10,9 +10,9 @@ header-img: "images/background_design.jpg"
 ---
 
 Today I’d like to introduce our first article on our freshly updated Haufe Group Work Blog.
-My name is Claudius and I’ Chief Designer at Haufe Group. I 
+My name is Claudius and I’m Chief Designer at Haufe Group. 
 
-Why the claim “We are UX”? 
+## Why the claim “We are UX”? 
 There is a great quote from two experts, kind of gurus in this field you may know, who said that “User Experience encompasses all aspects of the end-user‘s interaction with the company, its services and its products. “ 
 
 I believe in that! 

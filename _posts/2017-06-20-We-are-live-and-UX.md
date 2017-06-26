@@ -1,15 +1,13 @@
 ---
 layout: post
-title: We are live and UX - the Design Office
-subtitle: The 'Hello World' Post
+title: We are live and UX
+subtitle: The first Design Office Post
 category: design
 tags: [general, culture, design]
 author: Claudius Wissler
 author_email: claudius.wissler@haufe-lexware.com 
 header-img: "images/background_design.jpg"
 ---
-
-## We are live and UX!
 
 Today I’d like to introduce our first article on our freshly updated Haufe Group Work Blog.
 My name is Claudius and I’ Chief Designer at Haufe Group. I 

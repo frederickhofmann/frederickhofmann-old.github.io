@@ -20,8 +20,8 @@ I believe in that!
 We all have to work together, work towards one goal, to be everyone a part of UX. Let me explain what that means in detail: 
 
 {:.center}
-![UX and Venn](/images/design/Blog_Bild1.jpg){:style="margin:auto"}
-image
+![UX and Venn](/images/design/Blog_Bild2.jpg){:style="margin:auto"}
+how we see ux in our company
 
 ## Venn and UX
 -	For example business must have a vision and a clear direction. We can‘t expect that all parts work together successfully if they don’t have a clear vision.  
